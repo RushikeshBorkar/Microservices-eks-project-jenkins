@@ -2,9 +2,9 @@ pipeline {
     agent any 
 
     environment {
-        GIT_REPO_NAME = "Microservices-E-Commerce-eks-project"
-        GIT_EMAIL = "Yaswanth.arumulla@gmail.com"
-        GIT_USER_NAME = "arumullayaswanth"
+        GIT_REPO_NAME = "Microservices-eks-project-jenkins"
+        GIT_EMAIL = "rushikeshrborkar05@gmail.com"
+        GIT_USER_NAME = "RushikeshBorkar"
         IMAGE_NAME = "adservice"
         REPO_URL = "800769768691.dkr.ecr.us-east-1.amazonaws.com/adservice"
         YAML_FILE = "adservice.yaml"
